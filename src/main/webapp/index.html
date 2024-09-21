@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guest List Management</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="resources/js/script.js"></script> <!-- Link to the provided JS file -->
+</head>
+<body>
+<h1>Guest List</h1>
+
+<!-- Form for adding guest -->
+<form id="guestForm">
+    <label for="first">First Name:</label>
+    <input type="text" id="first" name="first" required>
+    <label for="last">Last Name:</label>
+    <input type="text" id="last" name="last" required>
+    <button type="button" id="send">Add Guest</button>
+</form>
+
+<!-- Area to display the guest list -->
+<h2>Guests:</h2>
+<ul id="guestList"></ul>
+</body>
+</html>
